@@ -1,0 +1,30 @@
+services:
+  app:
+    build: .
+    container_name: aspnet_app
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=cloudS5;Username=postgres;Password=cloud
+      - SMTP__Server=smtp.gmail.com
+      - SMTP__Port=587
+      - SMTP__Username=rovarazakamanantsoa@gmail.com
+      - SMTP__Password=yxfc ewzq okek jagv
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:15
+    container_name: postgres_db
+    environment:
+      POSTGRES_DB: cloudS5
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: cloud
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
