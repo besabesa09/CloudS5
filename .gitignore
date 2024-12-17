@@ -1,0 +1,143 @@
+# .NET Core
+## User-specific files
+.idea/
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# User-specific files (Windows)
+Thumbs.db
+Desktop.ini
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer XML files
+*.wixpdb
+
+# Windows Installer XML files (debug symbols)
+*.wixobj
+
+# Windows installer merge modules
+*.wixmsp
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ebugFull/
+[Dd]ist/
+[Dd]ebug-Windows/
+[Dd]ebug-linux/
+[Dd]ebug-osx/
+[Dd]ebug-anycpu/
+[Dd]ebug-x64/
+[Dd]ebug-x86/
+[Dd]Release/
+[Dd]ReleasePublic/
+[Dd]ReleaseFull/
+[Dd]ist/
+bin/
+obj/
+artifacts/
+
+# Tye
+.tye/
+
+# .NET Core build output
+*.dll
+*.pdb
+*.exe
+*.app
+*.o
+*.so
+*.dylib
+
+# ASP.NET Core
+wwwroot/
+
+# NPM
+node_modules/
+
+# JetBrains Rider
+.idea/
+
+# Visual Studio for Mac
+.vscode/
+
+# Windows Installer Files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ReSharper
+_ReSharper*/
+*.[Rr]eShaper
+
+# ASP.NET Files
+project.lock.json
+project.fragment.lock.json
+web.config
+
+# Logs
+*.log
+*.tgz
+
+# Web Deploy
+*.deploy
+
+# Package directories
+.nuget/
+packages/
+
+# Entity Framework
+*.bak
+*.log
+
+# JetBrains Rider
+.idea/
+
+# Visual Studio for Mac
+.vscode/
+
+# Miscellaneous
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files (debug symbols)
+*.wixpdb
+
+# Windows Installer XML files
+*.wixobj
+
+# Windows Installer merge modules
+*.wixmsp
+
+# Publish output
+Publish/
+
+# Ignore everything in the /publish folder
+/publish/*
+
+# Ignore the /bin folder
+/bin/*
+
+# Ignore temporary files used by Visual Studio
+.vs/
+
+# Ignore Dockerfile files
+Dockerfile
+docker-compose.yml
+
+# Ignore Azure DevOps settings
+.vsts/
+
